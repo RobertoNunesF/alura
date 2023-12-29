@@ -1,0 +1,10 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.responsivo-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
