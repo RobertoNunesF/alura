@@ -6,7 +6,6 @@
 }
 
 body {
-    height: 100vh;
     box-sizing: border-box;
     background-color: black;
     color: #F6F6F6;
@@ -20,7 +19,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10% 15%;
+    padding: 8% 15%;
 }
 
 .apresentacao__conteudo {
@@ -56,6 +55,9 @@ body {
 }
 
 .apresentacao__links__link {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     background-color: #000;
     width: 280px;
     text-align: center;
@@ -67,4 +69,18 @@ body {
     color: #F6F6F6;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+}
+
+.apresentacao__links__link:hover {
+    background-color: #272727;
+}
+
+.rodape {
+    padding: 24px;
+    color: #000000;
+    background-color: #22D4FD;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
 }
