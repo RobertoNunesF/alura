@@ -38,3 +38,17 @@
         font-size: 24px;
     }
 }
+
+@media screen and (min-width:1728px) {
+    .topicos {
+        padding: 3em 25vw;
+    }
+
+    .topicos__link {
+        font-size: 24px;
+    }
+
+    .topicos__item {
+        margin: 2.5em 0.8em;
+    }
+}
