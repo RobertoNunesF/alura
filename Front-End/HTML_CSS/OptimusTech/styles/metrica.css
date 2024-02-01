@@ -1,0 +1,30 @@
+.metricas {
+    display: flex;
+    padding: 0 5em 6em 5em;
+    justify-content: space-around;
+}
+
+.metrica__container {
+    font-family: 'Inter';
+    margin: 0 1em;
+}
+
+.metrica__numero {
+    color: var(--vermelho);
+    font-weight: 600;
+    font-size: 60px;
+    padding-bottom: 0.25em;
+}
+
+.metrica__titulo {
+    color: var(--cor-principal);
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 0.5em;
+}
+
+.metrica__texto {
+    color: var(--cor-secundaria);
+    font-weight: 400;
+    font-size: 16px;
+}
