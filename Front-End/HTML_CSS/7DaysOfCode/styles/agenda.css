@@ -1,0 +1,119 @@
+.agenda {
+    background-color: var(--fundo);
+}
+
+.agenda__title {
+    font-family: var(--fonte);
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+}
+
+.agenda__meeting {
+    background-color: var(--branco);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: flex;
+    justify-content: center;
+    margin: 0 16px;
+    padding: 1.25em 1em;
+    border-bottom: 0.1em solid var(--fundo);
+}
+
+.meeting__img {
+    border-radius: 50%;
+    height: 3.5em;
+    width: 3.5em;
+    margin-right: 1em;
+}
+
+.meeting__contact {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte);
+}
+
+.meeting__name {
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 0.5em;
+}
+
+.meeting__call {
+    display: flex;
+    font-family: var(--fonte);
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--cor-secundaria);
+    align-items: center;
+}
+
+.camera__icon {
+    padding-right: 0.5em;
+    width: 2em;
+    height: 2em;
+}
+
+.meeting__type {
+    width: 70%;
+    padding-right: 7.6em;
+}
+
+.call__icon {
+    padding-bottom: 1.5em;
+}
+
+.meeting__config {
+    background-color: var(--branco);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 16px;
+    padding: 1.25em 1em;
+    font-family: var(--fonte);
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--cor-primaria);
+    margin-bottom: 1em;
+}
+
+.meeting__hour {
+    padding: 1em;
+}
+
+.meeting__methods {
+    padding: 0 1em;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.meeting__video {
+    text-decoration: none;
+    background-color: var(--fundo-video);
+    color: var(--branco);
+    padding: 1em;
+    border-radius: 8px;
+}
+
+.meeting__audio {
+    text-decoration: none;
+    color: var(--cor-primaria);
+    padding: 1em;
+    border: 1px solid var(--borda-audio);
+    border-radius: 8px;
+}
+
+.meeting__local {
+    text-decoration: none;
+    background-color: var(--fundo-local);
+    color: var(--branco);
+    padding: 1em;
+    border-radius: 8px;
+    width: 85%;
+    text-align: center;
+}
