@@ -1,0 +1,44 @@
+.footer {
+    background-color: var(--fundo);
+    font-size: 12px;
+    font-weight: 400;
+    position: fixed;
+    top: 65em;
+    width: 100%;
+}
+
+.footer__menu {
+    background-color: var(--branco);
+    font-family: var(--fonte);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 16px;
+    margin-top: 10px;
+    padding: 0.5em 0.8em;
+}
+
+.menu__calendar {
+    background-color: var(--branco);
+}
+
+.menu {
+    background-color: var(--branco);
+}
+
+.calendar__text {
+    color: var(--fundo-local);
+}
+
+.menu__text {
+    color: var(--cor-primaria);
+}
+
+.icon__calendar {
+    margin-bottom: 5px;
+}
+
+.menu__icon {
+    margin-bottom: 5px;
+}

@@ -10,10 +10,14 @@
     justify-content: space-between;
     padding: 0.5em 1.2em;
     align-items: center;
+    background-color: var(--branco);
+    position: fixed;
+    width: 94%;
 }
 
 .header__time {
     font-family: var(--fonte);
+    background-color: var(--branco);
     font-size: 14px;
     font-weight: 400;
     color: #333333;
@@ -21,16 +25,18 @@
 
 .header__icons {
     align-items: center;
+    background-color: var(--branco);
 }
 
 .header__icon {
     padding: 0 0.5em;
+    background-color: var(--branco);
 }
 
 .profile {
     display: flex;
     background-color: var(--fundo);
-    padding: 2em 8em 1.5em 1em;
+    padding: 3em 8em 1.5em 1em;
     font: var(--fonte);
 }
 
