@@ -141,3 +141,35 @@
     color: var(--cor-primaria);
     margin-bottom: 5em;
 }
+
+@media screen and (min-width:768px) {
+    .agenda__title {
+        font-size: 24px;
+    }
+    
+    .meeting__name {
+        font-size: 20px;
+    }
+
+    .meeting__img {
+        height: 4.5em;
+        width: 4.5em;
+    }
+
+    .meeting__call {
+        font-size: 16px;
+    }
+
+    .call__icon {
+        width: 3em;
+        height: 3em;
+    }
+
+    .meeting__hour {
+        font-size: 16px;
+    }
+
+    .meeting__methods {
+        font-size: 16px;
+    }
+}

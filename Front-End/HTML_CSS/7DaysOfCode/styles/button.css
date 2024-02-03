@@ -18,3 +18,14 @@
     border: 1px solid transparent;
     border-radius: 50%;
 }
+
+@media screen and (min-width:768px) {
+    .button {
+        top: 79%;
+    }
+
+    .button__plus {
+        font-size: 30px;
+        padding: 15px 20px;
+    }
+}

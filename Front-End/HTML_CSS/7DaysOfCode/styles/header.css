@@ -59,3 +59,9 @@
     font-weight: 400;
     font-size: var(--tamanho-fonte);
 }
+
+@media screen and (min-width:768px) {
+    .header__config {
+        width: 98%;
+    }
+}

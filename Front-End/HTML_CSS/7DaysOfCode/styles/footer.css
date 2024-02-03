@@ -42,3 +42,9 @@
 .menu__icon {
     margin-bottom: 5px;
 }
+
+@media screen and (min-width:768px) {
+    .footer {
+        top: 90%;
+    }
+}

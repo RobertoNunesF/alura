@@ -1,5 +1,6 @@
 .vagas {
     display: flex;
+    flex-direction: column;
     font-family: 'Inter';
     align-items: center;
     justify-content: center;
@@ -39,4 +40,39 @@
 
 .vagas__imagem {
     margin: 4em 2em;
+}
+
+.areas {
+    font-family: var(--fonte-primaria);
+    width: 50%;
+}
+
+.area {
+
+}
+
+.area__titulo {
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--cor-principal);
+    padding-bottom: 2em;
+}
+
+.area__interesse {
+    border: 1px solid var(--borda-vagas);
+    border-radius: 16px;
+    padding: 1.25em 1.25em 1.75em 1.25em;
+    margin-bottom: 1.25em;
+}
+
+.area__especificacoes {
+    display: flex;
+    padding-top: 2em;
+}
+
+.area__texto {
+    padding-right: 1.5em;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cor-secundaria);
 }
