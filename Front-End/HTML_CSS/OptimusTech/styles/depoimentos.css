@@ -1,0 +1,45 @@
+.depoimento {
+    display: flex;
+    font-family: var(--fonte-primaria);
+}
+
+.depoimento__colaborador {
+    background-color: #F9F4F4;
+    justify-content: center;
+    text-align: center;
+    margin: 0 5em 6em 5em;
+    padding: 4em;
+    border-radius: 16px;
+}
+
+.depoimento__texto {
+    color: var(--vermelho);
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 1em;
+    width: 1070px;
+}
+
+.depoimento__frase {
+    color: var(--cor-principal);
+    font-size: 36px;
+    font-weight: 500;
+    padding-bottom: 2em;
+}
+
+.imagem__colaboradora {
+    padding-bottom: 1em;
+}
+
+.colaboradora__nome {
+    font-size: 16px;
+    color: var(--cor-principal);
+    font-weight: 500;
+    padding-bottom: 4px;
+}
+
+.colaboradora__funcao {
+    font-size: 14px;
+    color: var(--cor-secundaria);
+    font-weight: 400;
+}

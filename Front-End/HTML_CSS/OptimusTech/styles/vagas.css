@@ -45,10 +45,7 @@
 .areas {
     font-family: var(--fonte-primaria);
     width: 50%;
-}
-
-.area {
-
+    margin-bottom: 6em;
 }
 
 .area__titulo {
