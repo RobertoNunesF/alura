@@ -4,6 +4,7 @@
 @import url('./styles/metrica.css');
 @import url('./styles/vagas.css');
 @import url('./styles/depoimentos.css');
+@import url('./styles/rodape.css');
 
 :root {
     --fonte-primaria: "Inter";
