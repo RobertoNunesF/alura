@@ -1,0 +1,22 @@
+@media screen and (min-width:1024px) {
+    body {
+        display: grid;
+        grid-template-columns: 10% 90%;
+        grid-auto-rows: 100px;
+        gap: 10px;
+    }
+
+    .header {
+        grid-column: 2;
+    }
+
+    .agenda {
+        grid-column: 2;
+    }
+
+    .footer {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+}

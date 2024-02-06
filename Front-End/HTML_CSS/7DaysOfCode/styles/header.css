@@ -4,35 +4,6 @@
     font-family: var(--fonte);
 }
 
-.header__config {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0.5em 1.2em;
-    align-items: center;
-    background-color: var(--branco);
-    position: fixed;
-    width: 94%;
-}
-
-.header__time {
-    font-family: var(--fonte);
-    background-color: var(--branco);
-    font-size: 14px;
-    font-weight: 400;
-    color: #333333;
-}
-
-.header__icons {
-    align-items: center;
-    background-color: var(--branco);
-}
-
-.header__icon {
-    padding: 0 0.5em;
-    background-color: var(--branco);
-}
-
 .profile {
     display: flex;
     background-color: var(--fundo);

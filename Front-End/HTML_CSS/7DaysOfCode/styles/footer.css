@@ -29,10 +29,12 @@
 
 .calendar__text {
     color: var(--fundo-local);
+    background-color: var(--branco);
 }
 
 .menu__text {
     color: var(--cor-primaria);
+    background-color: var(--branco);
 }
 
 .icon__calendar {
@@ -47,4 +49,55 @@
     .footer {
         top: 90%;
     }
+}
+
+@media screen and (min-width:1024px) {
+    .footer {
+        position: static;
+        font-size: 1.2em;
+    }
+
+    .footer__menu {
+        display: flex;
+        flex-direction: column;
+        height: 147vh;
+        justify-content: flex-start;
+    }
+
+    .menu__calendar {
+        display: flex;
+        align-items: center;
+        margin: 1em 0;
+    }
+
+    .icon__calendar {
+        filter: grayscale(100%);
+        margin-right: 0.5em;
+        height: 1.5em;
+        width: 1.5em;
+    }
+
+    .calendar__text {
+        color: var(--cor-primaria);
+        background-color: var(--branco);
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+        margin: 1em 0;
+    }
+
+    .menu:hover {
+        color: var(--fundo-local);
+        background-color: var(--fonte);
+    }
+
+    .menu__icon {
+        filter: grayscale(100%);
+        margin-right: 0.5em;
+        height: 1.5em;
+        width: 1.5em;
+    }
+
 }
