@@ -142,6 +142,51 @@
     margin-bottom: 5em;
 }
 
+.new__text {
+    font-family: var(--fonte);
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 0.5em;
+    background-color: var(--branco);
+}
+
+.meeting__config__new {
+    background-color: var(--branco);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 16px;
+    padding: 1.25em 1em;
+    font-family: var(--fonte);
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--cor-primaria);
+    margin-bottom: 2em;
+}
+
+
+.form__checkbox {
+    display: none;
+}
+
+.form__new {
+    display: none;
+}
+
+.button__checkbox {
+    cursor: pointer;
+    align-items: center;
+    font-family: var(--fonte);
+    font-size: 20px;
+    font-weight: 700;
+    background-color: var(--fundo-local);
+    color: var(--branco);
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+}
+
 @media screen and (min-width:1024px) {
     .hoje {
         display: grid;
@@ -173,5 +218,9 @@
     .quarta {
         display: grid;
         grid-template-columns: 33% 33% 33%;
+    }
+
+    .form__checkbox:checked ~ .form__new {
+        display:block;
     }
 }
