@@ -5,6 +5,9 @@ const estudante = {
     turma: 'JavaScript'
 };
 
-console.log(estudante.nome);
-console.log(`O nome do estudante é ${estudante.nome}`);
-console.log(`Os 3 primeiros dígitos do cpf são ${estudante.cpf.substring(0,3)}`);
+function exibeInfoEstudante(objEstudante, infoEstudante) {
+    return objEstudante[infoEstudante];
+}
+
+console.log(exibeInfoEstudante(estudante, 'nome'));
+console.log(exibeInfoEstudante(estudante, 'cpf'));
